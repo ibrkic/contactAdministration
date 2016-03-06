@@ -1,0 +1,28 @@
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 2px;
+}
+.submitNewUser{background-color: #4CAF50;}
+.updateUser{background-color: #4CAF50;}
+.buttonCancel{background-color: #f44336;}
+.formLabel {font-weight: bold;}
+.input {
+	border: 2px solid #57EBE8;
+	border-radius: 6px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+input[type=number]::-webkit-inner-spin-button,				/* removes arrow indicators from within number input fields (chrome)*/
+input[type=number]::-webkit-outer-spin-button {				/* in chrome user can insert numbers only in number input field, while firefox doesnt support this*/
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] { -moz-appearance: textfield; }			/* removes arrow indicators from within number input fields (chrome)*/

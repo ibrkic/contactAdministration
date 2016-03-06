@@ -1,0 +1,38 @@
+body {text-align: center;}
+h1 {text-align: center;}
+#searchBlock {
+	width: 100%;
+	/*float: right;*/
+	position:relative;
+	margin-bottom: 5px;
+	margin-right: px;
+}
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 2px;
+	background-color: #DDDDDD;
+}
+.buttonDel {background-color: #f44336; visibility: hidden; display: inline-block;}
+.buttonAdd {background-color: #4CAF50; display: inline-block;}
+.editButton {margin-left: 5px;}
+ul #contactList {list-style-type: none;}
+ul li {
+	display: inline-block;
+	margin: 5px;
+}
+#sadrzaj {
+	position:relative;
+	background-color: #FAFAFA;
+	padding: 10px;
+	margin: 0 auto;
+}
+.editButton {padding: 2px 2px;}
+.searchButton {padding: 2px 2px;}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<title>Contacts</title>
+	</head>
+	<body>
+
+		<h1 id="naslov">Contacts</h1>
+		<div id="content-wrapper">
+		<div id="searchBlock">
+		<!--<form id="searchForm">-->
+			<span id="srchLabel">Search Contacts:</span>
+			<input type="text" name="contactsearch" id="searchField">
+			<input type="button" value="Search" class="button searchButton">
+		<!--</form>-->
+		</div>
+		<div id="sadrzaj">
+		<form>
+		<ul id="contactList">
+		</ul>
+		<input type="button" value="ADD Contact" name="addContact" class="button buttonAdd" onclick="location.href='add_contact.html';">
+		<input type="button" value="Delete selected" name="deleteContacts" class="button buttonDel">
+		</form>
+		</div>
+		<div id="bottom-button-wrapper">
+		<input type="button" value="Sort ASC" class="button buttonSortAsc">
+		<input type="button" value="Sort DSC" class="button buttonSortDsc">
+		</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/home.js"></script>
+	</body>
+	
+</html>

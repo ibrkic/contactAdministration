@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/add_edit_view_contact.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<title>Edit/View Contact</title>
+	</head>
+	<body>
+
+	<h1>Edit/View Contact details</h1>
+	<form action="" id="formaEdit">
+		<span class="formLabel">First name:</span><br/>
+		<input type="text" name="firstname" class="input firstname"><br/>
+		<span class="formLabel">Last name:</span><br/>
+		<input type="text" name="lastname" class="input lastname"><br/>
+		<span class="formLabel">Title:</span><br/>
+		<input type="text" name="title" class="input title"><br/>
+		<span class="formLabel">Gender:</span><br/>
+		<input type="radio" name="gender" value="male" id="male"> Male<br/>
+		<input type="radio" name="gender" value="female" id="female"> Female<br/>
+		<span class="formLabel">Phone:</span><br/>
+		<input type="number" name="phone" class="input phone"><br/>
+		<span class="formLabel">Mobile:</span><br/>
+		<input type="number" name="mobile" class="input mobile"><br/>
+		<span class="formLabel">Address:</span><br/>
+		<input type="text" name="address" class="input address"><br/>
+		<span class="formLabel">Email:</span><br/>
+		<input type="text" name="email" class="input email"><br/>
+		<span class="formLabel">Description:</span><br/>
+		<textarea rows="4" cols="50" placeholder="Word or two about contact..." class="input description"></textarea><br/>
+		<input type="submit" value="Update user" class="button updateUser">
+		<input type="button" value="Cancel" name="cancel" class="button buttonCancel" onclick="location.href='index.html';">
+	</form>
+	<script type="text/javascript" src="js/edit_view_contact.js"></script>
+	</body>
+</html>
